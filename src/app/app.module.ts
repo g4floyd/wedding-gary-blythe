@@ -16,6 +16,8 @@ import { TopBannerComponent } from './top-banner/top-banner.component';
 import { MapComponent } from './map/map.component';
 import { AccomodationsComponent } from './accomodations/accomodations.component';
 import { RegistryLinksComponent } from './registry-links/registry-links.component';
+import { FooterComponent } from './footer/footer.component';
+import { CountdownComponent } from './countdown/countdown.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { RegistryLinksComponent } from './registry-links/registry-links.componen
     TopBannerComponent,
     MapComponent,
     AccomodationsComponent,
-    RegistryLinksComponent
+    RegistryLinksComponent,
+    FooterComponent,
+    CountdownComponent
   ],
   imports: [
     BrowserModule,

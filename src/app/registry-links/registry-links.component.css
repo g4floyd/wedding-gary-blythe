@@ -25,6 +25,10 @@
   margin: 80px 0;
 }
 
+a {
+  background-color: #FFFFFF;
+}
+
 .store-tile {
   flex-grow: 1;
   width: 30%;
